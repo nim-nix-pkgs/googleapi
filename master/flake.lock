@@ -5,12 +5,10 @@
         "bearssl-master": "bearssl-master",
         "flakeNimbleLib": [
           "jwt",
-          "jwt-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "jwt",
-          "jwt-master",
           "nixpkgs"
         ]
       },
@@ -33,13 +31,11 @@
       "inputs": {
         "flakeNimbleLib": [
           "jwt",
-          "jwt-master",
           "bearssl",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "jwt",
-          "jwt-master",
           "bearssl",
           "nixpkgs"
         ],
@@ -86,38 +82,11 @@
     },
     "jwt": {
       "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "jwt-master": "jwt-master",
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648081155,
-        "narHash": "sha256-Cx/KXA8YMIsRPMYVX8MGWBVEBWUfy0d4pDiEwhR8wAY=",
-        "owner": "nim-nix-pkgs",
-        "repo": "jwt",
-        "rev": "caec0e3b43b0ed6d2b3509f5f814244b20c8b0e3",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "jwt",
-        "type": "github"
-      }
-    },
-    "jwt-master": {
-      "inputs": {
         "bearssl": "bearssl",
         "flakeNimbleLib": [
-          "jwt",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
-          "jwt",
           "nixpkgs"
         ],
         "src-jwt-master": "src-jwt-master"
@@ -230,14 +199,12 @@
       "inputs": {
         "flakeNimbleLib": [
           "jwt",
-          "jwt-master",
           "bearssl",
           "bearssl-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "jwt",
-          "jwt-master",
           "bearssl",
           "bearssl-master",
           "nixpkgs"

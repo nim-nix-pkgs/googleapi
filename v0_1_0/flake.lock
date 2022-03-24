@@ -40,19 +40,19 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "src-quickjwt-0_2_1": "src-quickjwt-0_2_1"
+        "src-quickjwt-v0_2_1": "src-quickjwt-v0_2_1"
       },
       "locked": {
-        "dir": "0_2_1",
-        "lastModified": 1648108022,
-        "narHash": "sha256-D3A3+FcUOFr7xLe67QaazHJkyByTB6Xf5yDeoz0auMg=",
+        "dir": "v0_2_1",
+        "lastModified": 1648163517,
+        "narHash": "sha256-xoUaLmYygEbST+y360aAiElcx6qGSBHnQFjolOSS5Ms=",
         "owner": "nim-nix-pkgs",
         "repo": "quickjwt",
-        "rev": "9c8a5434f80987ebb8735248bebc7665a4a7511a",
+        "rev": "ad91375e7713f6c0b9b7ae29f49f9e54d7625a34",
         "type": "github"
       },
       "original": {
-        "dir": "0_2_1",
+        "dir": "v0_2_1",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "quickjwt",
@@ -84,7 +84,7 @@
         "type": "github"
       }
     },
-    "src-quickjwt-0_2_1": {
+    "src-quickjwt-v0_2_1": {
       "flake": false,
       "locked": {
         "lastModified": 1579208162,
@@ -96,7 +96,7 @@
       },
       "original": {
         "owner": "treeform",
-        "ref": "refs/tags/0.2.1",
+        "ref": "refs/tags/v0.2.1",
         "repo": "quickjwt",
         "type": "github"
       }
