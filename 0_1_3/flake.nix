@@ -11,6 +11,7 @@
   inputs.src-googleapi-0_1_3.ref   = "refs/tags/0.1.3";
   inputs.src-googleapi-0_1_3.owner = "treeform";
   inputs.src-googleapi-0_1_3.repo  = "googleapi";
+  inputs.src-googleapi-0_1_3.dir   = "";
   inputs.src-googleapi-0_1_3.type  = "github";
   
   inputs."jwt".owner = "nim-nix-pkgs";
